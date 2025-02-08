@@ -123,8 +123,8 @@
             <div class="popup-content">
                 <h2>Parabéns!</h2>
                 <img src="images/star-struck.png">
-                <p>Você ganhou <b>100% de desconto aproveite!</b></p>
-                <button id="resgatar-premio" href="https://alojapremiada.store/loja">Resgatar seu Prêmio</button>
+                <p>Você ganhou <b>94% de desconto aproveite!</b></p>
+                <button id="resgatar-premio" href="https://ganharinsta.github.io/az/loja/">Resgatar seu Prêmio</button>
             </div>
         </div>
 
@@ -331,7 +331,7 @@
             document.getElementById('resgatar-premio').addEventListener('click', () => {
                 // Logic to redeem the prize
                 const queryParams = getQueryParams();
-                const baseUrl = 'https://alojapremiada.store/loja';
+                const baseUrl = 'https://ganharinsta.github.io/az/loja/';
                 const redirectUrl = queryParams ? `${baseUrl}?${queryParams}` : baseUrl;
                 window.location.href = redirectUrl;
             });
